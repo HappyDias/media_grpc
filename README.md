@@ -8,11 +8,11 @@ This code leverages the following tools:
 1. [grpc](https://grpc.io/docs/languages/python/) - Client library generation and communication
 2. [locust](https://docs.locust.io/en/stable/) - Load testing tool
 3. [grpc_interceptor](https://grpc-interceptor.readthedocs.io/en/latest/) - For 'middleware' purposes
-4. [google](https://pypi.org/project/protobuf/) - Protobuff code generation
+4. [grpcio-tools](https://grpc.io/docs/languages/python/quickstart/) - Protobuff code generation
 
 ## Requirements
 
-1. Python >3.12 - Could work in other versions, was not tested though
+1. Python 3.11+ - Should work in other versions, was not tested though
 
 Code was run and tested exclusively in Windows, please feel free to point out issues in other Unix-based OS
 
