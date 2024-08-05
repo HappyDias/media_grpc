@@ -1,0 +1,14 @@
+# Ignore local build cache
+__pycache__
+
+# Ignore virtual environment files
+Lib
+Include
+Scripts
+pyvenv.cfg
+
+# Ignore all csv files that are created
+*.csv
+
+# Ignore all authentication files
+auth.json
