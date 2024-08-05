@@ -40,8 +40,8 @@ class TestUser(GrpcUser):
             email = obj["email"]
             password = obj["password"]
 
-        super().__init__(self, host, email, password, *args, **kwargs)
-        gevent.spawn(self.list_vacancies_task, args[0])
+        super().__init__(host, email, password, args[0])
+        gevent.spawn(self.list_vacancies_task)
 
     def list_vacancies_task(self):
         """

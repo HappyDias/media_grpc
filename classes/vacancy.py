@@ -120,8 +120,8 @@ class Vacancy(Channel):
         Returns:
             list: A list of dictionaries representing the retrieved vacancies.
         """
-                page=page,
-                limit=limit
+        page=page,
+        limit=limit
         vacancies = []
         response = self.stub.GetVacancies(
             vacancy_service_pb2.GetVacanciesRequest(

@@ -19,15 +19,6 @@ class Interceptor(ClientInterceptor):
     Methods:
         intercept: Intercepts the gRPC client call.
     """
-        """
-        Intercepts the gRPC client call.
-        Args:
-            method: The gRPC client method.
-            request_or_iterator: The request or iterator object.
-            call_details: The client call details.
-        Returns:
-            The response object.
-        """
     def __init__(self, environment, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
